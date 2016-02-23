@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+    <title>AppzStory Coding</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- On host -->
+    <!-- <base href="/"> -->
+    <!-- localhost -->
+    <base href="http://localhost/mhsw/">
+    <link rel="icon" type="image/png" href="">
+    <link rel="stylesheet" type="text/css" href="assets/css/screen.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/bower_components/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+
+<div ng-include="'app/views/includes/navbar.html'"></div>
+<div ui-view></div>
+<div ng-include="'app/views/includes/footer.html'"></div>
+
+
+<script src="assets/bower_components/angular/angular.min.js"></script>
+<script src="assets/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="assets/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="assets/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+<script src="assets/js/jquery.parallax.js"></script>
+<script src="assets/bower_components/jquery.nicescroll/dist/jquery.nicescroll.min.js"></script>
+<script src="assets/bower_components/angular-cookies/angular-cookies.min.js"></script>
+<script src="assets/js/function.js"></script>
+<script src="app/app.js"></script>
+<!-- Controller -->
+<script src="app/controllers/MainCtrl.js"></script>
+
+
+</body>
+
+</html>
