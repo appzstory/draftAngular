@@ -1,0 +1,23 @@
+{
+  "name": "appzstory",
+  "description": "coding online",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~*",
+    "angular-ui-router": "~*",
+    "bootstrap-sass": "~*",
+    "angular-cookies": "~*",
+    "jquery.nicescroll": "jquery-nicescroll#~3.6.6",
+    "font-awesome": "~4.5.0"
+  }
+}
